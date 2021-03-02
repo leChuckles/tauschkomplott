@@ -184,14 +184,14 @@
          "opacity":0,
          "properties":[
                 {
+                 "name":"jitsiRoom",
+                 "type":"string",
+                 "value":"room101"
+                }, 
+                {
                  "name":"jitsiTrigger",
                  "type":"string",
                  "value":"onaction"
-                }, 
-                {
-                 "name":"jitsiroom",
-                 "type":"string",
-                 "value":"room101"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -210,6 +210,11 @@
                  "name":"openWebsite",
                  "type":"string",
                  "value":"https:\/\/www.youtube.com\/watch?v=dQw4w9WgXcQ"
+                }, 
+                {
+                 "name":"openWebsitePolicy",
+                 "type":"string",
+                 "value":"fullscreen"
                 }],
          "type":"tilelayer",
          "visible":true,
